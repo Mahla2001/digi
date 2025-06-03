@@ -1,0 +1,345 @@
+@font-face{
+    font-family: 'Vazir';
+    src: url('../Fonts/Vazir/Vazir-Regular-UI.ttf') format('truetype');
+}
+
+*{
+    font-family: 'Vazir';
+}
+
+#body1{
+    display: flex;
+    width: 1336px;
+    height: 85px;
+    margin: 35px auto;
+    margin-bottom: 15px;
+}
+
+#body1-bottom{
+    width: 1336px;
+    margin: 0 auto;
+    height: 500px;
+}
+
+#body1-right{
+    float: right;
+    width: 890px;
+    height: 100%;
+}
+
+#body1-left{
+    float: left;
+    width: 437px;
+    height: 100%;
+}
+
+#first-thumbnail{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+#left-1-1{
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
+}
+
+#left-1-2{
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
+}
+
+#right-1-1{
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+
+}
+
+.spacial-category{
+    display: flex;
+    width: 1366px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    height: 519px;
+}
+
+#spacialCategory1{
+    margin-top: 30px;
+    background-color: #ef394e;
+    width: 100%;
+    height: 100%;
+}
+
+#spacialCategory2{
+    margin: 30px 0;
+    background-color: #6bb927;
+    width: 100%;
+    height: 100%;
+}
+
+.spacialOffer-right{
+    float: right;
+    width: 170px;
+    align-items: center;
+}
+
+.spacialOffer-background > img{
+    width: 170px;
+    height: 300px;
+}
+
+#spacialOffer-more > a > img{
+    width: 10px;
+    height: 10px;
+    margin: 0 10px;
+}
+
+#spacialOffer-more > a{
+    margin-top: 10px;
+}
+
+#spacialOffer-more{
+    padding: 10px;
+    border: 1px white solid;
+    float: right;
+    margin-top: 50px;
+    border-radius: 7px;
+}
+
+#spacialOffer-more > a{
+    color: white;
+}
+
+
+/* Spacial offer items */
+.spacialOffer-left{
+    width: 86%;
+}
+
+.spacialOffer-left > ul > li{
+    width: 269px;
+    height: 436px;
+    background-color: white;
+    border-radius: 10px;
+    float: right;
+    margin-left: 10px;
+}
+
+.spacial-pic{
+    width: 170px;
+    height: 170px;
+    display: flex;
+    margin: 10px auto;
+    margin-bottom: 14px;
+    user-select: none;
+}
+
+.spacial-name{
+    color: #535353;
+    width: 100%;
+    height: 43px;
+    max-width: 90%;
+    font-size: 12px;
+    margin: 0 auto;
+    line-height: 25px;
+    font-weight: 400;
+    user-select: none;
+}
+
+.spacial-price-desc{
+    font-size: 12px;
+    color: #535353;
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    user-select: none;
+}
+
+.spacial-price-desc > img{
+    width: 18px;
+    height: 18px;
+    user-select: none;
+}
+
+.wo-spacial-price{
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+
+.wo-spacial-price > p{
+    user-select: none;
+    color: white;
+    font-weight: 600;
+    background-color: #fb3449;
+    font-size: 1rem;
+    float: left;
+    padding: 3px 6px;
+    border-radius: 15px;
+    user-select: none;
+}
+
+.wo-spacial-price > span{
+    margin-left: 10px;
+    color: #acacac;
+    text-decoration: line-through;
+    font-weight: 400;
+    font-size: 1rem;
+    user-select: none;
+}
+
+.spacial-price {
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-left: 13px;
+}
+
+.spacial-price > span{
+    color: black;
+    float: left;
+    margin-left: 10px;
+    font-weight: 800;
+    font-size: 1.429rem;
+    user-select: none;
+}
+
+.spacial-price > p{
+    color: black;
+    float: left;
+    font-size: 14px;
+    user-select: none;
+}
+
+.spacial-timer{
+    display: flex;
+    align-items: center;
+    float: left;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.spacial-timer > img{
+    width: 15px;
+    color: #737373;
+    user-select: none;
+}
+
+.spacial-timer > p{
+    margin-left: 5px;
+    color: #737373;
+    user-select: none;
+}
+
+/* OFFER PLACEMENTS */
+
+#offer-place{
+    width: 1400px;
+    height: 260px;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+#offer-place > li > img{
+    float: right;
+    border-radius: 25px;
+    width: 319px;
+    height: 100%;
+    margin-left: 20px;
+}
+
+/* Two item place */
+.twoItemPlace{
+    width: 1400px;
+    height: 261px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.twoItemPlace > li > img{
+    width: 658px;
+    height: 241px;
+    border-radius: 16px;
+    cursor: pointer;
+    user-select: none;
+    margin-left: 20px;
+}
+
+/* Mobile category shower */
+
+#mobileCategory{
+    width: 1280px;
+    height: 400px;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+#mobileCategory-right{
+    float: right;
+    width: 1113px;
+    height: 100%;
+}
+
+#mobileCategory-left{
+    border: 1px solid rgba(0,191,214,.3);
+    border-radius: 8px;
+    height: 100%;
+    width: 223px;
+    cursor: pointer;
+    float: left;
+}
+
+#mobileCategory-left > p{
+    color: #6e6e6e;
+    float: right;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 10px 17px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#mobileCategory-left > img{
+    width: 180px;
+    height: 180px;
+    display: flex;
+    margin: 0 auto;
+}
+
+#mobileCategory-left > pre{
+    color: #535353;
+    font-weight: 400;
+    float: right;
+    margin-right: 10px;
+    margin-top: 20px;
+    font-size: .857rem;
+}
+
+.mobileCategory-priceshower{
+    float: left;
+    margin-top: 60px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.mobileCategory-priceshower > p{
+    float: left;
+    font-size: 1.143rem;
+}
+
+.mobileCategory-priceshower > pre{
+    float: left;
+    font-size: .714rem;
+    margin-right: 4px;
+}
